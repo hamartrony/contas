@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Nunito&display=swap');
+
+form{
+    width: 330px;
+    height: 200px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 32px -12px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    margin: 20px 0px 0px 0px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+form label{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 22px;
+    color: #212529;
+    margin: 0px 0px 5px 15px; 
+
+    align-self: flex-start;
+
+
+
+}
+
+.input_desc{
+    width: 300px;
+    height: 35px;
+    margin-left: 15px;
+    
+
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 16px;
+
+    background: #F8F9FA;
+
+    border: 2px solid #F8F9FA;
+    box-sizing: border-box;
+    border-radius: 8px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: black;
+
+    
+
+}
+
+form span{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    align-self: flex-start;
+    margin-left: 15px;
+
+    color: #868E96;
+
+}
+
+.div_valor{
+    display: flex;
+    height: 70px;
+}
+
+.valor{
+    position: absolute;
+    margin: 0px 0px 5px 15px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 22px;
+    color: #212529;
+
+}
+
+.input_preco{
+    width: 128px;
+    height: 35px;
+    background: #F8F9FA;
+
+    border: 2px solid #F8F9FA;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin-left: 15px;
+    margin-top: 25px;
+    text-align: right;
+
+}
+
+.tipo{
+    position: absolute;
+    margin-left: 179px;
+    margin-top: 0px;
+  
+}
+
+form select{
+    width: 135px;
+    height: 35px;
+    margin-left: 36px;
+    margin-top: 25px;
+
+    background: #F8F9FA;
+   
+
+    border: 2px solid #F8F9FA;
+    box-sizing: border-box;
+    border-radius: 8px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 26px;
+
+    color: #868E96;
+}
+
+
+
+form button{
+    width: 300px;
+    height: 35px;
+    margin-top: 5px;
+    align-self: center;
+
+    background: #FD377E;
+
+    border: 2px solid #FD377E;
+    box-sizing: border-box;
+    border-radius: 8px;
+
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #FFFFFF;
+
+}
+
+
+@media (min-width: 600px){
+
+    form{
+        position: inherit;
+        align-self: flex-start;
+        margin-left: 10%;
+        width: 363px;
+        height: 351px;
+    }
+
+    .input_desc{
+        width: 314px;
+        height: 52.8px;
+        margin-top: 12px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 4px ;
+    }
+
+    form label{
+        margin: 38px 0px 0px 26px;
+    }
+
+    form span{
+        margin-left: 24px;
+        margin-bottom: 17.7px;
+    }
+
+  .input_preco{
+      height: 48px;
+  }
+
+  form select{
+      height: 48px;
+  }
+
+  form button{
+      margin-top:19px ;
+      width: 314px;
+      height: 48px;
+  }
+
+
+}
+
+
+@media (min-width: 1400px){
+    form {
+        margin-left: 17%;
+    }
+
+}
+
